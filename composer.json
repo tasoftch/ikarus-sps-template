@@ -1,0 +1,19 @@
+{
+  "name": "ikarus/sps-template",
+  "description": "A simple template to create a SPS on any device.",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "yourname",
+	  "email": "email@example.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "MySPS\\": "SPS"
+	}
+  },
+  "require": {
+	"ikarus/sps": "^1.0"
+  }
+}
